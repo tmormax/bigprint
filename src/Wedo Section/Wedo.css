@@ -1,0 +1,62 @@
+.wedo-parallax{
+    width: 100vw;
+    height: 50vw;
+}
+.wedo-gradient {
+    background: linear-gradient(rgba(44, 2, 6, 0) 50%, black);
+}
+/* WHAT WE DO */
+.services-container{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    padding-bottom: 5vw;
+}
+.service-item{
+    background-color: rgba(24,2,6,0.85);
+    border: 2px solid #ba0d11;
+    border-radius: 10px;
+    width: 15vw;
+    height: 20vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    cursor:pointer;
+    transition: 300ms ease-in-out;
+
+}
+
+.service-item:hover{
+    background-color: rgba(84,2,6,0.9);
+}
+.service-item:hover > h4{
+    translate: 0 -200%;
+}
+
+@media only screen and (max-width: 900px) {
+    .wedo-parallax{
+        width: 100vw;
+        height: 50vh;
+    }
+    h4{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .service-item{
+        width: 20vw;
+        height: 20vw;
+        padding: 10px;        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wedo-parallax{
+        width: 100vw;
+        height: 50vh;
+    }
+    #wedo-h1{
+        font-size: 8vw;
+    }
+}

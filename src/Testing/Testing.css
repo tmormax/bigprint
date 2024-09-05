@@ -1,0 +1,63 @@
+.aspect{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+}
+.inset {
+    position: absolute;
+    inset: 0;
+  }  
+.center {
+    display: flex;    
+    align-items: center;
+  }
+.flex-column{
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    justify-content: center;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;  
+}
+
+  .gradient {
+    background: linear-gradient(rgba(14, 62, 151, 0) 20%, black);
+  }
+
+  .page-padding-side{
+    padding: 0 15vw;
+  }
+
+  .italic{
+    font-style: italic;
+  }
+
+  .justify{
+    text-align: justify;
+  }
+  .about-description{
+    display: flex;
+    justify-content: center;  
+    gap: 60px;
+  }
+
+  .about-content{
+    padding: 5vh 15vw;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .aspect{
+      height: 750px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    .about-description{
+        flex-direction: column;
+        gap: 0px;
+      }
+  }
+ 

@@ -1,0 +1,57 @@
+.projects-section img{
+    width: 100vw;
+    position: relative;
+}
+
+.projects-top{
+    position: relative;
+}
+
+.projects-title{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.project-titles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 15vw 20vh 15vw;
+
+    background-image: url(/projects_section/projects_tile.jpg);
+    background-repeat: repeat;
+}
+.project-titles > img {
+    max-width: 180px;
+    width: 15vw;    
+}
+.project-title{
+    scale: 1;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+
+    -webkit-box-shadow:0px 0px 50px 0px rgba(245,181,112,0.15);
+    -moz-box-shadow: 0px 0px 50px 0px rgba(245,181,112,0.15);
+    box-shadow: 0px 0px 50px 0px rgba(245,181,112,0.15);
+}
+.project-title:hover{
+    scale: 1.05;
+    -webkit-box-shadow:0px 0px 100px 0px rgba(245,181,112,0.5);
+    -moz-box-shadow: 0px 0px 100px 0px rgba(245,181,112,0.5);
+    box-shadow: 0px 0px 100px 0px rgba(245,181,112,0.5);
+}
+
+.project-bottom{
+    position: relative;
+}
+.projects-man-standing{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
